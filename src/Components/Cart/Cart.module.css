@@ -6,6 +6,7 @@
     overflow: auto;
   }
   
+
   .total {
     display: flex;
     justify-content: space-between;
@@ -19,7 +20,7 @@
     text-align: right;
   }
   
-  .actions button {
+  button {
     font: inherit;
     cursor: pointer;
     background-color: transparent;

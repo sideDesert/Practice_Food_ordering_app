@@ -1,0 +1,51 @@
+.checkoutForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.checkoutForm > div{
+     /* display: flex;
+    align-items: center;  */
+    margin: 0.5rem;
+    width: 80%;
+}
+
+
+.checkoutForm > div label{
+    position: absolute;
+    transform: translate(6px, -15px);
+    font-size: 1.1rem;
+    background-color: white;
+    padding: 0 5px 0 2px;
+}
+
+.checkoutForm span{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: right;
+    align-self: flex-end;
+}
+
+input[type=text]{
+    font-size: 1rem;
+    padding: 0.5rem;
+    font-family: 'Noto Sans JP';
+    width: 100%;
+}
+.cancel_btn{
+    border-color: rgb(221, 50, 50); 
+    color: rgb(221, 50, 50);
+  }
+
+  .cancel_btn:hover{
+      background-color: rgb(221, 50, 50);
+  }
+
+  button.unavailable,
+  button.unavailable:hover{
+      cursor: default;
+      border: solid #d2d2d2  2px;
+      color: #acacac;
+      background-color: #e7e7e7;
+  }

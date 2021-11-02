@@ -20,6 +20,14 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
     z-index: 30;
     animation: slide-down 300ms ease-out forwards;
+    max-height: 65vh;
+    overflow-x:hidden;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; 
+  }
+  .modal::-webkit-scrollbar{
+    display: none;
   }
   
   @media (min-width: 768px) {

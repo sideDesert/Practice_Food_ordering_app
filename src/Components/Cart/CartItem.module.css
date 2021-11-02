@@ -58,19 +58,19 @@
   margin: 0.25rem;
 }
 
-.cart-item button:hover,
-.cart-item button:active {
+button:hover,
+button:active {
   background-color: #00b07c;
   color: white;
 }
 
-.cart-item button.disable{
+button.disable{
   cursor: disable;
   border: 1px solid #a0a0a0;
   color: #a0a0a0 ;
 }
 
-.cart-item button.disable:hover{
+button.disable:hover{
   background-color: white;  
   cursor:default;
 }
